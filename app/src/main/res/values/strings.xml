@@ -13,7 +13,7 @@
     <string name="verify_screen_logo">Verify Screen Logo</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
-        <string-array name="gender">
+    <string-array name="gender">
         <item>Gender</item>
         <item>Male</item>
         <item>Female</item>
