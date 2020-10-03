@@ -11,17 +11,15 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Activity.UserLoginActivity" />
         <activity android:name=".Activity.HomeScreen" />
-        <activity android:name=".Activity.MainActivity">
+        <activity android:name=".Activity.MainActivity"></activity>
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:theme="@style/AppThemeNoAction">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-        <activity android:name=".Activity.SplashActivity"
-            android:theme="@style/AppThemeNoAction">
-
         </activity>
 
         <meta-data
